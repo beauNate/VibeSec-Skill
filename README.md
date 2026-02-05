@@ -2,7 +2,7 @@
 
 > **Stop vibe coding vulnerabilities into production.**
 
-A Claude Skill that brings 5+ years of bug bounty hunting experience directly into your AI coding workflow - so Claude writes secure code from the start.
+An AI skill that brings 5+ years of bug bounty hunting experience directly into your AI coding workflow - so LLM models write secure code from the start.
 
 ## Introduction
 
@@ -17,7 +17,7 @@ We have all seen the posts/memes:
 
 Security gaps aren't obvious until someone exploits them. Without the right guidance, AI will confidently ship vulnerable patterns alongside your features.
 
-VibeSec is a Claude Skill that acts as a security-first co-pilot. It teaches Claude to approach your code from a bug hunter's perspective, catching vulnerabilities before they ship.
+VibeSec is an AI Skill that acts as a security-first co-pilot. It teaches your selected model to approach your code from a bug hunter's perspective, catching vulnerabilities before they ship.
 
 ## 📚 Table of Contents  
 - [VibeSec-Skill](#VibeSec-Skill)
@@ -31,9 +31,44 @@ VibeSec is a Claude Skill that acts as a security-first co-pilot. It teaches Cla
 
 ## 📥 Installation
 
-1. Download the `SKILL.md` file from this repository
-2. Add it to your Claude Project(or to `~/.claude/skills`)
-3. Start coding - Claude will automatically load the skill
+- <details><summary>Claude Code</summary>
+
+  * Clone this repository: `git clone https://github.com/BehiSecc/VibeSec-Skill`
+
+  * Add it to `~/.claude/skills` (global) or `.claude/skills` in your project directory (project-only).
+</details>
+
+- <details><summary>Cursor</summary>
+
+  * Clone this repository: `git clone https://github.com/BehiSecc/VibeSec-Skill`
+
+  * Add it to `~/.cursor/skills` (global) or `.cursor/skills` in your project directory (project-only).
+</details>
+
+- <details><summary>Codex</summary>
+
+  * Clone this repository: `git clone https://github.com/BehiSecc/VibeSec-Skill`
+
+  * Add it to `~/.agents/skills` (global) or `.agents/skills` in your project directory (project-only).
+
+</details>
+
+- <details><summary>Github Copilot</summary>
+
+  * Clone this repository: `git clone https://github.com/BehiSecc/VibeSec-Skill`
+
+  * Add it to `~/.copilot/skills` (global) or `.github/skills` in your project directory (project-only).
+
+</details>
+
+- <details><summary>Antigravity</summary>
+
+  * Clone this repository: `git clone https://github.com/BehiSecc/VibeSec-Skill`
+
+  * Add it to `~/.gemini/antigravity/skills/` (global) or `.agent/skills/` in your project directory (project-only).
+
+</details>
+
 
 
 
@@ -65,7 +100,7 @@ VibeSec provides comprehensive protection against:
 
 "I'm building a [web app description]. Please follow secure coding practices."
 
-# Claude will now automatically:
+# Claude/Codex/etc will now automatically:
 # - Implement proper access controls  
 # - Add security headers
 # - Validate and sanitize all inputs
